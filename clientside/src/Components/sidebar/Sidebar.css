@@ -1,0 +1,253 @@
+/* .sidebar_tweet{
+    color: white;
+    border-color: #26a7de;
+    margin-left: 0;
+    margin-top: 10px;
+    height: 45px;
+    width: 90%;
+    align-items: center;
+    background-color: var(--twitter-color) !important;
+    cursor: pointer;
+    border-radius: 29px;
+    border:none;
+    text-transform: inherit !important;
+} */
+/* font-weight: 900 !important; */
+
+/* .Sidebar{
+    border-right: 1px solid var(--twitter-background);
+    
+    min-width: 200px;
+    padding-right: 35px;
+    position: sticky; 
+    
+} */
+
+/* width: 200px;
+height: 100%; */
+/* left: 0;
+top: 0; */
+/* background-color: #f0f0f0; */ 
+/* z-index: 9999; */
+
+
+
+/* .Twittericon{
+    color: var(--twitter-color);
+    font-size: 35px !important;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    overflow-y: scroll ;
+} */
+
+/* .Profile_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    border-radius: 9999px;
+    padding:15px;
+
+} */
+
+/* .iconButton{
+    margin-left: 0%;
+}
+
+.user_info{
+    margin-left: 10px;
+}
+
+.user_info>h4{
+    font-size: 14px;
+}
+
+.user_info>h5{
+    opacity: 50%;
+}
+
+.subUser_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.myavatar{
+    margin-right: 10px;
+}
+
+.temp{
+    margin-top: 40px;
+    display: flex;
+    
+}
+
+.temp:hover{
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+    cursor: pointer;;
+}
+
+@media  screen and (max-width:645px) {
+    .sidebar{
+        display:none
+    }
+}
+ */
+
+
+ .Sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    width: 350px;
+    height: 100vh;
+    /* background-color: #15202b; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 9999;
+    z-index: 9999;
+    border-right: 1px solid var(--twitter-background);
+    padding-left: 120px;
+    padding-right: 30px;
+  }
+  
+  .Sidebar .Twittericon {
+    color: #1da1f2;
+    font-size: 35px;
+  }
+  
+  .Sidebar .icon {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 25px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .Sidebar .icon:hover {
+    background-color: #1c2938;
+    cursor: pointer;
+  }
+  
+  .Sidebar button.sidebar_tweet {
+    width: 85%;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: #1da1f2;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out;
+    margin-top: 20px;
+  }
+  
+  .Sidebar button.sidebar_tweet:hover {
+    background-color: #0b8bc8;
+    cursor: pointer;
+  }
+  
+  .Sidebar .temp {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    /* border-top: 1px solid #2f424f; */
+    margin-top: auto;
+    /* color: ; */
+    font-size: 16px;
+  }
+  
+  .Sidebar .temp:hover{
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+    cursor: pointer;
+  }
+
+  .Sidebar .Profile_info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Sidebar .Profile_info .MuiAvatar-root {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+  
+  .Sidebar .Profile_info .user_info h5 {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .Sidebar .Profile_info .user_info h6 {
+    margin-top: 0;
+    font-size: 14px;
+  }
+  
+  .Sidebar .Profile_info1 .MuiAvatar-root {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+  
+  .Sidebar .Profile_info1 .subUser_info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Sidebar .Profile_info1 .subUser_info h5 {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .Sidebar .Profile_info1 .subUser_info h6 {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  
+  .Sidebar .Profile_info1 .done_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    background-color: #1da1f2;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .Sidebar .Profile_info1 .done_icon .MuiSvgIcon-root {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  .Sidebar .iconButton {
+    color: #ffffff;
+    margin-left: auto;
+    padding-right: 5px;
+  }
+
+  /* #basic-menu{
+    opacity: 9999;
+    z-index: 9999;
+  } */
+  .user_info .subUser_info{
+        display: flex;
+        margin-left:10px ;
+  }

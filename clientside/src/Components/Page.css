@@ -1,0 +1,39 @@
+
+
+.page {
+ 
+    width: 200vw;
+    max-width: 600px;
+    
+    border-right: 1px solid var(--twitter-background);
+    /* flex: 0.4;
+    width: 100vw;
+    padding: 0 180px;
+    height: 100vh;
+    display: flex;
+    align-items: center; */
+    margin-left: 222px;
+    
+
+  
+
+  }
+  
+  .pageTitle {
+    font-size: 30px;
+    padding: 15px;
+    /* text-align: center; */
+    color: var(--twitter-color);
+  }
+  
+  .profilepage{
+    flex:0.4;
+    border-right: 1px solid var(--twitter-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+    margin-left: 222px;
+  }
+
+  .profilepage::-webkit-scrollbar{
+    display: none;
+  }
